@@ -18,7 +18,7 @@ describe('Tezos transaction', function() {
       should.equal(tx.inputs.length, 1);
       tx.inputs.length.should.equal(1);
       tx.inputs[0].address.should.equal('tz1VRjRpVKnv16AVprFH1tkDn4TDfVqA893A');
-      tx.inputs[0].value.toString().should.equal('1004764');
+      tx.inputs[0].value.toString().should.equal('1040027');
       tx.outputs.length.should.equal(1);
       tx.outputs[0].address.should.equal('');
       tx.outputs[0].value.toString().should.equal('1000000');
@@ -33,7 +33,7 @@ describe('Tezos transaction', function() {
       should.equal(tx.inputs.length, 1);
       tx.inputs.length.should.equal(1);
       tx.inputs[0].address.should.equal('tz1VRjRpVKnv16AVprFH1tkDn4TDfVqA893A');
-      tx.inputs[0].value.toString().should.equal('1004764');
+      tx.inputs[0].value.toString().should.equal('1040027');
       tx.outputs.length.should.equal(1);
       tx.outputs[0].address.should.equal('');
       tx.outputs[0].value.toString().should.equal('1000000');
@@ -52,7 +52,7 @@ describe('Tezos transaction', function() {
       should.equal(tx.inputs.length, 1);
       tx.inputs.length.should.equal(1);
       tx.inputs[0].address.should.equal('tz1VRjRpVKnv16AVprFH1tkDn4TDfVqA893A');
-      tx.inputs[0].value.toString().should.equal('1004764');
+      tx.inputs[0].value.toString().should.equal('1040027');
       tx.outputs.length.should.equal(1);
       tx.outputs[0].address.should.equal('');
       tx.outputs[0].value.toString().should.equal('1000000');
@@ -69,7 +69,7 @@ describe('Tezos transaction', function() {
       should.equal(tx.inputs.length, 1);
       tx.inputs.length.should.equal(1);
       tx.inputs[0].address.should.equal('tz1VRjRpVKnv16AVprFH1tkDn4TDfVqA893A');
-      tx.inputs[0].value.toString().should.equal('1004764');
+      tx.inputs[0].value.toString().should.equal('1040027');
       tx.outputs.length.should.equal(1);
       tx.outputs[0].address.should.equal('');
       tx.outputs[0].value.toString().should.equal('1000000');

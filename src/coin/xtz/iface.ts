@@ -1,3 +1,5 @@
+import { Fee as BaseFee } from '../baseCoin/iface';
+
 /**
  * A Tezos private key with the spsk prefix or raw
  */
@@ -51,4 +53,12 @@ export interface Operation {
 export interface ParsedTransaction {
   branch: string;
   contents: Operation[];
+}
+
+/**
+ * Different Tezos specific fees
+ */
+export interface Fee extends BaseFee {
+  gasLimit?: string;
+  storageLimit?: string;
 }
